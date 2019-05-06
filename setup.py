@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-	name='apicalls',
+	name='apifunctions',
 	version='2019.1',
 	description='A common set up functions for calling RESTful APIs.',
 	author='Robert Holloway',
