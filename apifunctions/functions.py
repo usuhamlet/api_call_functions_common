@@ -3,7 +3,7 @@ from requests.auth import HTTPBasicAuth
 import json
 
 
-def makePostRequest(url=None, body=None, authUser=None, authPass=None):
+def makePostRequest(url=None, body=None, authUser='', authPass=''):
     if not url or not body:
         return None
 
@@ -21,7 +21,7 @@ def makePostRequest(url=None, body=None, authUser=None, authPass=None):
     return response
 
 
-def makePatchRequest(url=None, body=None, authUser=None, authPass=None):
+def makePatchRequest(url=None, body=None, authUser='', authPass=''):
     if not url or not body:
         return None
 
@@ -39,7 +39,7 @@ def makePatchRequest(url=None, body=None, authUser=None, authPass=None):
     return response
 
 
-def makeRequest(url=None, params=None, authUser=None, authPass=None):
+def makeRequest(url=None, params=None, authUser='', authPass=''):
     if not url:
         return None
 
