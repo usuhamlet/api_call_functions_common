@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
 	name='apifunctions',
 	version='2019.1',
-	description='A common set up functions for calling RESTful APIs.',
+	description='A common set of functions for calling RESTful/SOAP APIs.',
 	author='Robert Holloway',
 	packages=['apifunctions'],
 	classifiers=[
