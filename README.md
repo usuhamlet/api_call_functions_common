@@ -12,4 +12,4 @@ API Request scripts are using Python 3.
 
 ## Install
 
-```pip install -e git+https://git.repo/some_pkg.git#egg=SomeProject```
+```pip install -e git+https://github.com/usuhamlet/api_call_functions_common.git#egg=apifunctions```
